@@ -86,3 +86,12 @@ GitHub: [${answers.username}](https://github.com/${answers.username})
 Email: ${answers.email}
 `;
  
+// put output into readme
+    fs.writeFile('README.md', readmeContent, (err) => {
+      if (err) throw err;
+      console.log('README.md file has been generated successfully!');
+    });
+  })
+  .catch((error) => {
+    console.error(error);
+  });
