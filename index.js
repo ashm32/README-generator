@@ -47,5 +47,42 @@ inquirer
       message: 'Enter your email address: ',
     },
   ])
+//answers
+  .then((answers) => {
+    const readmeContent = `
+# ${answers.title}
 
+${answers.description}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+
+${answers.installation}
+
+## Usage
+
+${answers.usage}
+
+## Contributing
+
+${answers.contribution}
+
+## Tests
+
+${answers.test}
+
+## Questions
+
+For any questions or inquiries, feel free to reach out to me:
+
+GitHub: [${answers.username}](https://github.com/${answers.username})
+
+Email: ${answers.email}
+`;
  
