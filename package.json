@@ -1,0 +1,14 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A command-line application to generate a professional README.md file",
+  "main": "generate-readme.js",
+  "scripts": {
+    "start": "node generate-readme.js"
+  },
+  "author": "Ayshah",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
