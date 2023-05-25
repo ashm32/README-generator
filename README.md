@@ -1,31 +1,35 @@
 
-  # README-Generator
+# Professional README Generator
 
+The project is a README generator that helps users create README files without worrying about applying proper Markdown syntax. It addresses the problem of overlooked READMEs in projects, often due to laziness, lack of knowledge of Markdown syntax, or uncertainty about what to include. By prompting the user with specific questions, the README generator allows them to generate a professional and comprehensive README based on their responses. This process only takes a few minutes and empowers developers to make their projects completer and more professional. Having a well-crafted README increases the likelihood that others will choose their application over similar ones without a README.
 
-  ## Table-of-Contents
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
+## Installation
 
+To get started with the application, follow these steps: 1. Click on the repository link (https://github.com/ashm32/README-generator). 2. Download the zip file and extract its contents. 3. Open the extracted folder in your preferred code editor, such as VS Code. 4. In the code editor, open the integrated terminal. 5. Make sure the terminal's current directory is set to the root directory of the project (named 'readmeGen'). You are now ready to run the application!
 
-  ## [Description](#table-of-contents)
+## Usage
 
-  My project is a README generator. The project will help a user generate a README without having to worry about applying proper mark down syntax.
+After installing the required dependencies, execute the command node index.js in the terminal. Respond to the prompts as instructed. Once the process is finished, you will see a message confirming the creation of the file, and you can locate the generated file named README.md in the root folder. The generated file will be in Markdown syntax, allowing you to conveniently copy and paste the code into your project.
 
-  One problem with most projects is that the README is overlooked. This could be because the developer is lazy and doesn't want to include it or they haven't mastered down the proper syntax to creating a README. Also they possibly don't have a good idea of what to include with the README.
+## Contributing
 
-  This README generator will allow the user to answer a series of specific questions and create a professional complete README based on their responses. It will take a couple minutes and provide the developer with the ability to make their project complete and more professional, increasing the likely hood that someone will want to use their app over similar apps without a README.
+Thank you for expressing your willingness to contribute; however, I am not currently accepting contributions from external parties.
 
-  ## [Installation](#table-of-contents)
+## Tests
 
-  Click the repository link below. Download the zip file and open the file in VS Code (or whatever editor you work with). Open the terminal in VS Code and make sure you’re in the root directory ‘professional-README-generator-main'. You’ll now be ready to run the app!
+To test this app, open the file in VS Code. Open the terminal, change directory into the root folder ‘readmeGen, and run ‘node index.js’. Answer the prompts and view the preview of the ‘README.md’ file in the root folder.
 
-  README Generator Link:
+## Questions
 
-  Tutorial on how to use app:
+For any questions or inquiries, feel free to reach out to me:
 
+GitHub: [ashm32](https://github.com/ashm32)
 
-  ## [Usage](#table-of-contents)
-
-  After installation is complete, run the following code: ‘node index.js’ in the terminal. Answer the prompts and after completion, you should see a console log showing your answers to your prompts, a message that says ‘File created!’, and you should see your file under the ‘dist’ folder called ‘generatedREADME’. It’s generated in mark down syntax so you can copy and paste that output into your project!
+Email: ash.m32@icloud.com
