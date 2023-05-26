@@ -16,7 +16,7 @@ To get started with the application, follow these steps: 1. Click on the reposit
 
 ## Usage
 
-After installing the required dependencies (by running ' npm install ' to install inquirer), execute the command node index.js in the terminal. Respond to the prompts as instructed. Once the process is finished, you will see a message confirming the creation of the file, and you can locate the generated file named README.md in the root folder. The generated file will be in Markdown syntax, allowing you to conveniently copy and paste the code into your project.
+After installing the required dependencies (by running ' npm install ' to install inquirer), execute the command ' node index.js ' in the terminal. Respond to the prompts as instructed. Once the process is finished, you will see a message confirming the creation of the file, and you can locate the generated file named README.md in the root folder. The generated file will be in Markdown syntax, allowing you to conveniently copy and paste the code into your project.
 
 ## Contributing
 
