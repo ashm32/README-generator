@@ -12,7 +12,7 @@ The project is a README generator that helps users create README files without w
 
 ## Installation
 
-To get started with the application, follow these steps: 1. Click on the repository link (https://github.com/ashm32/README-generator). 2. Download the zip file and extract its contents. 3. Open the extracted folder in your preferred code editor, such as VS Code. 4. In the code editor, open the integrated terminal. 5. Make sure the terminal's current directory is set to the root directory of the project (named 'readmeGen'). You are now ready to run the application!
+To get started with the application, follow these steps: 1. Click on the repository link (https://github.com/ashm32/README-generator). 2. Download the zip file and extract its contents. 3. Open the extracted folder in your preferred code editor, such as VS Code. 4. In the code editor, open the integrated terminal. 5. Make sure the terminal's current directory is set to the root directory of the project (named 'README-generator-main'). You are now ready to run the application!
 
 ## Usage
 
@@ -24,7 +24,7 @@ Thank you for expressing your willingness to contribute; however, I am not curre
 
 ## Tests
 
-To test this app, open the file in VS Code. Open the terminal, change directory into the root folder ‘readmeGen, and run ‘node index.js’. Answer the prompts and view the preview of the ‘README.md’ file in the root folder.
+To test this app, open the file in VS Code. Open the terminal, change directory into the root folder ‘README-generator-main, and run ‘node index.js’. Answer the prompts and view the preview of the ‘README.md’ file in the root folder.
 
 ## Questions
 
